@@ -25,3 +25,6 @@ Testing and training files will appear in the DATA directory.
 
 ## Group member contributions
 Eric Sun 100%
+
+## Special work
+Implemented 3 way split(sequential)
