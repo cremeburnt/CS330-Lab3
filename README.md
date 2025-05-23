@@ -37,4 +37,5 @@ Model will appear in the root directory.
 
 ## Group member contributions
 Eric Sun 75%
+
 Vincent Allen Sison 25%
