@@ -1,30 +1,41 @@
-# CS330-Lab3
+# CS330 Final Project
+DISREGARD `Lab3.py` FILE
 
 ## Dataset description (What is the dataset about?)
-The dataset contains physical attributes of farmed Crabs.
+Birds!
 
 ## Input features (What do the features represent?)
-The features represent the phyisical attributes of crabs.
+Images of birds.
 
 ## Output labels (What does the dataset predict?)
-The dataset predicts the age of the crab based on its other physical attributes.
+What kind of bird is it? (Robin? Blue Heron?)
+
 
 ## Dataset source (Where did you find it?)
-Kaggle
+[NABirds](https://dl.allaboutbirds.org/nabirds)
 
 ## How to run the code?
-Make sure you're in the root folder of the repository.
+### First model (Eric Sun)
+1. Make sure you're in the root folder of the repository,
+2. Download data from link above and extract into DATA folder(create this folder and put it into the root repository).
+3. Run program with commands listed below(reccomend train for about 45 epochs).
 
 commands: 
-```
-python Lab3.py --input [file name] 
-python Lab3.py --input [file name] --mode r
-```
 
-Testing and training files will appear in the DATA directory.
+To train model with epoch amount:
+`python bird_model.py --train bird_model.pth --epochs [number]`
+
+To continue training model:
+`python bird_model.py --train bird_model.pth --resume --epochs [number]`
+
+To evaluate model:
+`python bird_model.py -e bird_model.pth`
+
+Model will appear in the root directory.
+
+### Second model (Vincent Allen Sison)
 
 ## Group member contributions
-Eric Sun 100%
+Eric Sun 75%
 
-## Special work
-Implemented 3 way split(sequential)
+Vincent Allen Sison 25%
