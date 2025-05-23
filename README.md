@@ -21,6 +21,7 @@ What kind of bird is it? (Robin? Blue Heron?)
 3. Run program with commands listed below(reccomend train for about 45 epochs).
 
 commands: 
+
 To train model with epoch amount:
 `python bird_model.py --train bird_model.pth --epochs [number]`
 
