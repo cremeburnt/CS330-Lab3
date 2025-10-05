@@ -32,10 +32,18 @@ To evaluate model:
 `python bird_model.py -e bird_model.pth`
 
 Model will appear in the root directory.
+### Second Model (Vincent Allen Sison)
+1. Make sure you're in the root folder of the repository,
+2. Download data from link above and extract into DATA folder(create this folder and put it into the root repository).
+3. Run program with commands listed below(reccomend train with anywhere between 16-25 epochs and 10-25 batch size).
 
-### Second model (Vincent Allen Sison)
+To train model with epoch amount:
+`python second_model.py --train second_model.pth --epochs [number] --batch-size [number]`
+
+To evaluate model:
+`python second_model.py --evaluate second_model.pth --data-root data/nabirds --batch-size [number]`
 
 ## Group member contributions
-Eric Sun 75%
+Eric Sun 50%
 
-Vincent Allen Sison 25%
+Vincent Allen Sison 50%
